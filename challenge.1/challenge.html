@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+</head>
+<style>
+    *{
+        /*margin:auto;
+        padding:auto;*/
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    body{
+        height: 100%;
+        min-height: 100vh;
+        background-color: wheat;
+        overflow-x:hidden;
+    }
+    .cycle, .car{
+        height:230px;
+        width:230px;
+        position:relative;
+        left:80px;
+        top:30px;
+    }
+    .car{
+        height:230px;
+        width:230px;
+    }
+    .chair{
+        height:230px;
+        width:260px;
+        position:relative;
+        left:80px;
+        top:30px;
+    }
+    .buy{
+        cursor: pointer;
+    }
+    .box-1{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        width: 400px;
+        height: 440px;
+        margin-top: -200px;
+        margin-left: -200px;
+        border-radius: 2px;
+	    box-shadow: 4px 8px 16px 0    
+    }
+    .box-2{
+        position: absolute;
+        top: 50%;
+        left: 52%;
+        width: 400px;
+        height: 440px;
+        margin-top: -200px;
+        margin-left: -200px;
+        border-radius: 2px;
+	    box-shadow: 4px 8px 16px 0 
+    }
+    .box-3{
+        position: absolute;
+        top: 40%;
+        left: 84%;
+        width: 400px;
+        height: 440px;
+        margin-top: -200px;
+        margin-left: -200px;
+        border-radius: 2px;
+	    box-shadow: 4px 8px 16px 0 
+    }
+    .heading{
+        position:relative;
+        left:126px;
+        top:22px;
+    }
+    .content{
+        position:relative;
+        top:10px;
+        left:40px;
+    }
+    .content-1,.content-2{
+        position:relative;
+        top:10px;
+        text-align:center;
+    }
+    .button-19 {
+        appearance: button;
+        background-color: #dac897;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: din-round,sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 13px 16px;
+        text-align: center;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        transform: translateZ(0);
+        transition: filter .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #dabf8e;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box-1">
+        <img class="cycle" src="/cycle.jpg">
+        <h1 class="heading">EV Cycle</h1>
+        <p class="content">"EV cycle: Charge, drive, innovate. Battery life, adoption rise. 
+            Tech advances, greener roads. Economic, environmental ripples."</p>
+            <!--<button class="buy">BUY NOW</button> -->
+        <button class="button-19" role="button">BUY NOW</button>
+        </div>
+        <div class="box-2">
+            <img class="car" src="/ca.jfif">
+            <h1 class="heading">EV Car</h1>
+            <p class="content-1">"EV Car: Charge,drive,innovate. Battery life,adoption rise.
+                Tech advances, greener roads, Economic,environmental ripples."
+            </p>
+            <!--<button class="buy">BUY NOW</button>-->
+            <button class="button-19" role="button">BUY NOW</button>
+        </div>
+        <div class="box-3">
+            <img class="chair" src="/wchair.webp">
+            <h1 class="heading">EV WheelChair</h1>
+            <p class="content-2">"EV Car: Charge,drive,innovate. Battery life,adoption rise.
+                Tech advances, greener roads, Economic,environmental ripples."</p>
+                <!--<button class="buy">BUY NOW</button>-->
+                <button class="button-19" role="button">BUY NOW</button>
+            </div>
+    </div>
+</body>
+</html>
